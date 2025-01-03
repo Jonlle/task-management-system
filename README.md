@@ -2,6 +2,37 @@
 
 The **Task Management System** is a web application designed to help users efficiently create, assign, and manage tasks. Built using **Next.js**, **Tailwind CSS**, and **Flowbite**, it offers a user-friendly interface and robust features tailored for both Admin and Regular users. This system streamlines task management, enhancing productivity and collaboration within teams.
 
+## 🌐 Access the Application
+
+You can access the production application at the following link: [Task Management System](https://tms-tool.vercel.app)
+
+## 📸 Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login_page.jpeg)
+_Login form interface._
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.jpeg)
+_Main dashboard view displaying the list of tasks._
+
+### Task Creation (Admin)
+
+![Task Creation](screenshots/task_creation.jpeg)
+_Form to create new tasks with all required fields._
+
+### Task List (Regular User)
+
+![Task List](screenshots/task_list.jpeg)
+_List of tasks assigned to a regular user._
+
+### Light/Dark Theme Toggle
+
+![Theme Toggle](screenshots/theme_toggle.jpeg)
+_Interface in both light and dark themes._
+
 ## Main Technologies
 
 - **Next.js 14**
@@ -50,8 +81,8 @@ The **Task Management System** is a web application designed to help users effic
 
 6. **Responsive User Interface**:
 
-   - Utilizes **Tailwind CSS** and **Flowbite** to create a simple and responsive interface.
-   - The application includes a **navbar** for navigation and a **dashboard page** for viewing and filtering tasks.
+   - Built with **Tailwind CSS** and **Flowbite** to provide a clean and responsive design.
+   - Includes a **light/dark theme toggle button** in the navbar, allowing users to select their preferred theme.
 
 7. **Basic Authorization**:
 
@@ -130,19 +161,18 @@ npm run test:api
 ## Next Steps
 
 1. **Database Integration**:
-   Integrate **SQLite** for persistent task storage, enhancing data management and reliability.
+   Integrate a database like **SQLite** or **MongoDB** for persistent task storage, enhancing data management and reliability.
 
 2. **Real-Time Updates**:
    Implement WebSocket support to provide real-time notifications when tasks are assigned or updated, improving user engagement.
 
 3. **Drag-and-Drop Task Management**:
-
    Enhance user experience by allowing users to change task statuses using drag-and-drop functionality.
 
 ## Deployment
 
-The application will be deployed on **Vercel** for easy access. Once the deployment is live, a link will be provided here.
+The application is deployed on **Vercel** for easy access. You can view the live version [here](https://tms-tool.vercel.app).
 
 ## License
 
-This project is licensed under the terms of the [MIT License](./LICENSE)
+This project is licensed under the terms of the [MIT License](./LICENSE).
